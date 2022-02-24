@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  background-color: lightsalmon;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.div1{
+  display:flex;
+  justify-content: space-around;
+}
+.div2{
+  display:flex;
+  justify-content: space-around;
+}
+.img1{
+  height: 200px;
+  width: 300px;
+}
+.card1{
+  margin: 20px;
+  background-color: white;
+  width: 50%;
+  align-items: center;
+  list-style: none;
+  border: 2px dashed gold;
+  border-radius: 20px;
+}
+.list1{
+  display: flex;
+  justify-content: space-around;
+}
+.list2{
+  display: flex;
+  justify-content: space-around;
+}
+p{
+  align-items:baseline;
+  text-align: center;
+  font-weight: 600;
+  color: blueviolet;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main1{
+  margin: 20px;
+  padding: 20px;
+}
+button{
+  margin: 20px;
+  border-radius:14px;
+}
+a{
+  background-color: silver;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius:14px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+h1{
+  color: gold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
